@@ -3,10 +3,6 @@ const user = {
   name: "John",
   age: 25,
 };
-localStorage.user=JSON.stringify(user)
-let user2=JSON.parse(localStorage.user)
-console.log(user2)
 
-
-/*localStorage.setItem("user", JSON.stringify(user));
-console.log(JSON.parse(localStorage.getItem("user")));*/
+localStorage.setItem("user", JSON.stringify(user));
+console.log(JSON.parse(localStorage.getItem("user")));
